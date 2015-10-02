@@ -1,0 +1,27 @@
+@charset "utf-8";
+body,html{
+    font-family: monospace;
+    background-color: #000000;
+    color: #99ffcc;
+    width:100%;
+    text-align: center;
+}
+#butt{
+    height: auto;
+    width: 100%;
+    display: block;
+}
+#buttons{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    display: block;
+}
+#display{
+    display: block;
+    width: 100%;
+}
+#console{
+    display: block;
+    width: 100%;
+}
