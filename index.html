@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       	<meta charset="utf-8">
+		<title>digivice</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>        <!--Initiate Digivice-->
+        <script type="text/javascript" src="js/digiupdate.js"></script>  <!--Stats, Training, Food, Medical, Clean Functions-->
+        <script type="text/javascript" src="js/battle.js"></script>      <!--Battle Function-->
+        <script type="text/javascript" src="js/map.js"></script>         <!--Map Function-->
+    </head>
+    <body>
+        <section id=butt>
+            <button onclick="execute()">EXECUTE</button>      <!--Initiate Digivice-->
+            <button onclick="execute()">baked demo</button>   <!--Maybe try to do a pre-baked demo of each function?-->
+        </section>
+        <section id=buttons>
+            <button onclick="showStats()">Stats</button> ||   <!--Stats Function Call-->
+            <button onclick="">Food</button> ||               <!--Food Function Call--> 
+            <button onclick="">Training</button> ||           <!--Training Function Call-->
+            <button onclick="">Battle</button> ||             <!--Battle Function Call-->
+            <button onclick="">Clean</button> ||              <!--Clean Function Call-->
+            <button onclick="">Medical</button> ||            <!--Medical Function Call-->
+            <button onclick="">Map</button> ||                <!--Choose Map Function Call-->
+            <button onclick="">Change</button>                <!--Change Digimon Function Call-->
+        </section>
+        <hr>
+        <section id="console"></section>        <!--Print text info here-->
+        <hr>
+        <section id="display"></section>        <!--Digimon Sprite and/or Visual Information should be printed here-->
+        <section id="digidata"></section>       <!--Digimon Data should be printed on the fly here to keep up with changes made by other functions-->
+    </body>
+</html>
